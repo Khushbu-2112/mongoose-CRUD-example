@@ -1,0 +1,79 @@
+body {
+    padding: 30px;
+    font: "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: #555555;
+  }
+  
+  .container {
+    padding: 20px;
+    background-color: #efefef;
+    margin: 0 auto;
+    border-radius: 6px;
+  }
+
+  .box{
+    width: 30%;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+/* 
+  .container h3 a {
+    float: right;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(28, 54, 104);
+    border-radius: 6px;
+    color: #FFFFFF;
+  }
+  
+  .container h3 a:hover, .container table tr td button:hover {
+    background-color: rgba(28, 54, 104,0.5);
+    color: rgb(28, 54, 104);
+  }
+  
+  .container table {
+    width: 360px;
+  }
+  
+  .container table tr td {
+    padding: 5px;
+  }
+  
+  .container table tr td input, .container table tr td textarea {
+    border: solid 1px #dddddd;
+    padding: 5px 10px;
+    border-radius: 6px;
+    width: 100%;
+    color: #777777;
+  }
+  
+  .container table tr td button {
+    border: solid 1px #AABF5C;
+    background-color: #00AE4D;
+    border-radius: 6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 10px 0;
+    padding: 10px 20px;
+  }
+  
+  .container form button {
+    border: solid 1px #CB2027;
+    background-color: #DD4B39;
+    border-radius: 6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 10px 0;
+    padding: 10px 20px;
+  }
+  
+  .container .list-table {
+    width: 360px;
+    border: solid 2px #DDDDDD;
+    border-spacing: 0;
+  }
+  
+  .container .list-table th {
+    border-bottom: solid 2px #DDDDDD;
+  } */

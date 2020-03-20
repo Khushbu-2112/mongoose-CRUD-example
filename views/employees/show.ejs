@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Employee Detail</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <h3><a href="/employees" style="float: right;" class="btn btn-success mr-4">Employee List</a></h3>
+      <h1>Employee Detail</h1>
+      <hr>
+      <div class="box">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name</td>
+              <td>:</td>
+              <td><strong><%= employee.name %></strong></td>
+            </tr>
+            <tr>
+              <td>Address</td>
+              <td>:</td>
+              <td><strong><%= employee.address %></strong></td>
+            </tr>
+            <tr>
+              <td>Position</td>
+              <td>:</td>
+              <td><strong><%= employee.position %></strong></td>
+            </tr>
+            <tr>
+              <td>Salary</td>
+              <td>:</td>
+              <td><strong><%= employee.salary %> Rs./year</strong></td>
+            </tr>
+          </tbody>
+        </table>
+  
+  <a style="float: left;" href="/employees/edit/<%= employee._id%>" class="btn btn-primary mt-4">EDIT</a>
+      <form action="/employees/delete/<%= employee._id%>" method="post">
+        <button type="submit" class="btn btn-danger mt-4 ml-4">DELETE</button>
+      </form>
+    </div>
+  </div>
+  </body>
+</html>
